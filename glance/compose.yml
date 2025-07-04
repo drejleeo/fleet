@@ -2,6 +2,8 @@ services:
   glance:
     image: glanceapp/glance
     container_name: glance
+    env_file:
+      - ../general.env
     volumes:
       - ${FLEET_PATH}/glance/config:/app/config
       - ${FLEET_PATH}/glance/assets:/app/assets
