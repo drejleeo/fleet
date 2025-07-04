@@ -3,8 +3,8 @@ services:
     image: glanceapp/glance
     container_name: glance
     volumes:
-      - ./config:/app/config
-      - ./assets:/app/assets
+      - ${FLEET_PATH}/glance/config:/app/config
+      - ${FLEET_PATH}/glance/assets:/app/assets
     ports:
       - 6743:8080
     restart: unless-stopped
