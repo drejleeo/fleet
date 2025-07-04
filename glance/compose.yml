@@ -1,0 +1,14 @@
+services:
+  glance:
+    image: glanceapp/glance
+    container_name: glance
+    env_file:
+      - ../secrets.env
+      - ../general.env
+      - .env
+    volumes:
+      - ./config:/app/config
+      - ./assets:/app/assets
+    ports:
+      - 6743:8080
+    restart: unless-stopped
