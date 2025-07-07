@@ -5,8 +5,8 @@ services:
     env_file:
       - stack.env
     volumes:
-      - ${FLEET_PATH}/glance/config:/app/config
-      - ${FLEET_PATH}/glance/assets:/app/assets
+      - ${GLANCE_PATH:-.}/config:/app/config
+      - ${GLANCE_PATH:-.}/assets:/app/assets
     ports:
       - 6743:8080
     restart: unless-stopped
