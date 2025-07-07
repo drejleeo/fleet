@@ -1,0 +1,24 @@
+- name: News
+  columns:
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: rss
+              style: detailed-list
+              feeds:
+                - url: https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml
+
+    - size: full
+      widgets:
+        - type: group
+          widgets:
+            - type: reddit
+              collapse-after: 12
+              subreddit: technology
+              show-thumbnails: true
+
+            - type: reddit
+              collapse-after: 12
+              subreddit: selfhosted
+              show-thumbnails: true

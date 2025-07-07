@@ -1,0 +1,37 @@
+- name: Orthodox
+  columns:
+    - size: small
+      widgets:
+        - type: rss
+          title: Daily
+          style: vertical-list
+          limit: 1
+          feeds:
+            - url: https://orthocal.info/api/feed/
+              title: Ortodox local
+
+        - type: monitor
+          sites:
+            - title: Holy Liturgy
+              url: https://ortodoxcrestin.mixlr.com/
+              icon: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.stickpng.com%2Fimages%2F62cdb93ee106734e1ce2009f.png&f=1&nofb=1&ipt=b820e35e2a80ec298890dbf6baa0f3f488c74217a5ad1e690e68b77b01056aa6
+
+        - type: videos
+          style: vertical-list
+          channels:
+            - UChozbOPP6uOJ2UkiTZy-sgQ  # Orthodox Ethos
+
+    - size: full
+      widgets:
+        - type: videos
+          title: harmony
+          channels:
+            - UC4ocopmnWmwViIHELoo1Gkg  # harmony
+
+        - type: rss
+          title: Articles
+          collapse-after: 9
+          feeds:
+            - url: https://doxologia.ro/rss.xml
+              cache: 1h
+              title: Doxologia
