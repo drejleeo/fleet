@@ -9,6 +9,7 @@ Plus we navigate ⎈
 
 ### ⛴️ Ships
 
+ - [x] Blinko - https://blinko.space/
  - [x] Glance - https://github.com/glanceapp/glance
  - [x] Immich - https://immich.app/
  - [x] Portainer - https://www.portainer.io/
@@ -16,11 +17,10 @@ Plus we navigate ⎈
  - [x] Vaultwarden - https://github.com/dani-garcia/vaultwarden
 
 
-###  Projects that sparked my interest & future candidates
+###  Projects that sparked my interest & future candidates for this fleet
 
  - [ ] Affine.pro - https://affine.pro/
  - [ ] Audiobookshelf - https://www.audiobookshelf.org/
- - [ ] Blinko - https://blinko.space/
  - [ ] Booklore - https://github.com/adityachandelgit/BookLore
  - [ ] Caddy - https://caddyserver.com/
  - [ ] Code Server - https://coder.com/
