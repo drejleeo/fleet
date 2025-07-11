@@ -1,2 +1,7 @@
+# IDE related
 .idea
 **/.DS_Store
+
+# Apps
+blinko/app/
+blinko/db/
