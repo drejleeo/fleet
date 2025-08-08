@@ -17,7 +17,7 @@ Plus we navigate ⎈
  - [x] Vaultwarden - https://github.com/dani-garcia/vaultwarden
 
 
-###  Projects that sparked my interest & future candidates for this fleet
+### 💡 Projects that sparked my interest & future candidates for this fleet
 
 Top priorities:
  - [ ] Twingate - https://www.twingate.com/
@@ -52,4 +52,5 @@ Next in line:
  - [ ] Implement a way to spin-up all containers stacks at once.
  - [ ] Implement feature toggle to allow only the desired stacks.
  - [ ] Create a system for easy secrets management, while using best practices.
+
 
