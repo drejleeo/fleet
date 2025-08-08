@@ -21,6 +21,7 @@ Plus we navigate ⎈
 
 Top priorities:
  - [ ] Twingate - https://www.twingate.com/
+ - [ ] Metube - https://github.com/alexta69/metube
 
 Next in line:
  - [ ] Affine.pro - https://affine.pro/
@@ -52,5 +53,6 @@ Next in line:
  - [ ] Implement a way to spin-up all containers stacks at once.
  - [ ] Implement feature toggle to allow only the desired stacks.
  - [ ] Create a system for easy secrets management, while using best practices.
+
 
 
