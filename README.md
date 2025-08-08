@@ -39,7 +39,7 @@ Next in line:
  - [ ] Prometheus - https://prometheus.io/
  - [ ] Rancher - https://www.rancher.com/
  - [ ] Sshwifty - https://github.com/nirui/sshwifty
- - [ ] Stremio - 
+ - [ ] Stremio - https://github.com/Stremio/server-docker
  - [ ] Tailscale - https://tailscale.com/
  - [ ] Tautulli - https://tautulli.com/
  - [ ] Umbrel - https://apps.umbrel.com/
@@ -54,6 +54,7 @@ Next in line:
  - [ ] Implement a way to spin-up all containers stacks at once.
  - [ ] Implement feature toggle to allow only the desired stacks.
  - [ ] Create a system for easy secrets management, while using best practices.
+
 
 
 
