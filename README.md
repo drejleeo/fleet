@@ -19,6 +19,10 @@ Plus we navigate ⎈
 
 ###  Projects that sparked my interest & future candidates for this fleet
 
+Top priorities:
+ - [ ] Twingate - https://www.twingate.com/
+
+Next in line:
  - [ ] Affine.pro - https://affine.pro/
  - [ ] Audiobookshelf - https://www.audiobookshelf.org/
  - [ ] Booklore - https://github.com/adityachandelgit/BookLore
@@ -48,3 +52,4 @@ Plus we navigate ⎈
  - [ ] Implement a way to spin-up all containers stacks at once.
  - [ ] Implement feature toggle to allow only the desired stacks.
  - [ ] Create a system for easy secrets management, while using best practices.
+
