@@ -1,3 +1,7 @@
+networks:
+  fleet:
+    external: true
+
 services:
   glance:
     image: glanceapp/glance
@@ -7,4 +11,6 @@ services:
       - ${GLANCE_PATH:-.}/assets:/app/assets
     ports:
       - 6743:8080
+    networks:
+      - fleet
     restart: unless-stopped
