@@ -14,3 +14,10 @@ services:
     networks:
       - fleet
     restart: unless-stopped
+
+  forge:
+    image: ghcr.io/drejleeo/forge:main
+    container_name: forge
+    networks:
+      - fleet
+    restart: unless-stopped
