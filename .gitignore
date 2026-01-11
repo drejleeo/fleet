@@ -1,3 +1,6 @@
 # IDE related
 .idea
 **/.DS_Store
+
+# Apps
+glance/config/*.yml
