@@ -4,3 +4,8 @@
 
 # Apps
 glance/config/*.yml
+
+# WIP
+caddy/
+n8n/
+plex/
