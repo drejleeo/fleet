@@ -13,6 +13,6 @@ theme:
 
 pages:
   - $include: home.yml
-  - $include: orthodox.yml
   - $include: videos.yml
   - $include: news.yml
+  - $include: reddit.yml

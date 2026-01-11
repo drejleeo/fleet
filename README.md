@@ -50,12 +50,18 @@ Next in line:
  - Make sure to enable Websockets for the containers that need them.
 
 
+## TODOs
+ - Add `container_name` properties to all containers.
+ - Ensure `fleet` network is used on all stacks in the end.
+
+
 ## Ambition
  - [ ] Implement a way to spin-up all containers stacks at once.
  - [ ] Implement feature toggle to allow only the desired stacks.
  - [ ] Create a system for easy secrets management, while using best practices.
 
 
-
-
-
+## Useful links
+ - [Docker, Tailscale and Caddy with HTTPS. A love story!](https://www.reddit.com/r/Tailscale/comments/104y6nq/docker_tailscale_and_caddy_with_https_a_love_story/)
+ - [Tailscale, Synology, HTTPS to docker services](https://caddy.community/t/taiscale-synology-https-to-docker-services/18834/1)
+ - [Setting up Caddy, tailscale for reverse proxy on Synology NAS](https://caddy.community/t/setting-up-caddy-tailscale-for-reverse-proxy-on-synology-nas/23418)
