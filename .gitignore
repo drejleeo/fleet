@@ -4,6 +4,9 @@
 
 # Apps
 glance/config/*.yml
+immich/library
+immich/postgres
+immich/storage
 
 # WIP
 caddy/
