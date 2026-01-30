@@ -65,3 +65,6 @@ Next in line:
  - [Docker, Tailscale and Caddy with HTTPS. A love story!](https://www.reddit.com/r/Tailscale/comments/104y6nq/docker_tailscale_and_caddy_with_https_a_love_story/)
  - [Tailscale, Synology, HTTPS to docker services](https://caddy.community/t/taiscale-synology-https-to-docker-services/18834/1)
  - [Setting up Caddy, tailscale for reverse proxy on Synology NAS](https://caddy.community/t/setting-up-caddy-tailscale-for-reverse-proxy-on-synology-nas/23418)
+
+## Troubleshooting
+ - [Server getting OOMKilled](https://github.com/immich-app/immich/discussions/16119)
